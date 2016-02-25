@@ -2,5 +2,5 @@ alias ll='ls -Alh'
 alias g='grep -P'
 
 export GREP_OPTS='--colors=auto'
-export LESS=-X
+export LESS='-X -R'
 
