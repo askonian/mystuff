@@ -1,6 +1,10 @@
 alias ll='ls -Alh'
-alias g='grep -P'
+alias grep='grep -I'
+alias g='grep -IP'
+alias psg='ps aux|grep'
+alias rm='rm -i'
+alias json_pp='python -m json.tool'
 
-export GREP_OPTS='--colors=auto'
+export GREP_OPTS='--color=auto'
 export LESS='-X -R'
 
