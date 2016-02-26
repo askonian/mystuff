@@ -1,0 +1,10 @@
+[core]
+    editor = vim
+[color]
+    ui = auto
+    branch = auto
+    diff = auto
+    grep = auto
+	pager = true
+    status = auto
+
