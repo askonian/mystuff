@@ -1,6 +1,6 @@
 [core]
     editor = vim
-    pager = cat
+    pager = 
 [color]
     ui = auto
     branch = auto
@@ -9,3 +9,5 @@
     pager = true
     status = auto
 
+[merge]
+    tool = kdiff3
